@@ -71,7 +71,7 @@ AI-generated speech can be used for **fraudulent activities**, **identity theft*
 ## Installation & Setup
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/Audio-Deepfake-Detection.git
+git clone https://github.com/ronaldkalani/Momenta-ML-Data-Curation.git
 cd Audio-Deepfake-Detection
 ```
 ### 2️⃣ Install Dependencies
