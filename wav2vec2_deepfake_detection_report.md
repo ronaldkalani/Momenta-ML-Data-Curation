@@ -229,27 +229,5 @@ Expand the training dataset to include varied voices, accents, and audio conditi
 
 ---
 
-##  Repository Structure
-
-```plaintext
-📦 AI-Speech-Forgery-Detection/
- ┣ 📁 data/                   # Processed audio files and labels
- ┣ 📁 models/                 # Saved model checkpoints
- ┣ 📁 notebooks/              # Jupyter Notebooks for experiments and visualizations
- ┣ 📁 utils/                  # Helper functions (e.g., data loaders, evaluation scripts)
- ┣ 📄 README.md               # Project documentation
- ┣ 📄 requirements.txt        # Python dependencies
- ┣ 📄 train.py                # Main training script
- ┣ 📄 evaluate.py             # Script to evaluate model performance
- ┗ 📄 inference.py            # Script for real-time prediction or batch inference
-
----
-
-##  Setup Instructions
-
-```bash
-git clone https://github.com/<your-username>/AI-Speech-Forgery-Detection.git
-cd AI-Speech-Forgery-Detection
-pip install -r requirements.txt
 
 
