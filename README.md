@@ -98,6 +98,9 @@ python evaluate.py
 - Test on diverse **deepfake datasets** like ASVspoof 2021.
 
 ## 📜 References
-- Baevski et al. (2020). Wav2Vec 2.0: Self-supervised learning of speech representations. [Link](https://doi.org/10.48550/arXiv.2006.11477)
-- Tak et al. (2021). End-to-end deepfake speech detection using RawNet2. [Link](https://doi.org/10.1109/ICASSP39728.2021.9413977)
-- Radford et al. (2022). Whisper: Robust speech recognition. [Link](https://cdn.openai.com/papers/whisper.pdf)
+1. Baevski, A., Zhou, Y., Mohamed, A., & Auli, M. (2020). [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477). *arXiv:2006.11477*.
+2. Tak, H., Patwa, P., & Yamagishi, J. (2021). [End-to-End Detection of Spoofed Speech Using RawNet2](https://arxiv.org/abs/2104.03095). *ICASSP 2021*.
+3. Radford, A., et al. (2022). [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://openai.com/research/whisper).
+4. ASVspoof Challenge Dataset: [https://www.asvspoof.org](https://www.asvspoof.org)
+5. Fake-or-Real Dataset: [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UV7NGU)
+6. Hugging Face Model: [https://huggingface.co/facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53)
