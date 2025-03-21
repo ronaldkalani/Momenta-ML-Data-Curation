@@ -185,15 +185,29 @@ Ideal for **real-time or batch processing** in:
 
 ##  References
 
-1. Baevski, A., Zhou, Y., Mohamed, A., & Auli, M. (2020). [wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations](https://arxiv.org/abs/2006.11477). *arXiv:2006.11477*.
-2. Tak, H., Patwa, P., & Yamagishi, J. (2021). [End-to-End Detection of Spoofed Speech Using RawNet2](https://arxiv.org/abs/2104.03095). *ICASSP 2021*.
-3. Radford, A., et al. (2022). [Whisper: Robust Speech Recognition via Large-Scale Weak Supervision](https://openai.com/research/whisper).
-4. ASVspoof Challenge Dataset: [https://www.asvspoof.org](https://www.asvspoof.org)
-5. Fake-or-Real Dataset: [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UV7NGU)
-6. Hugging Face Model: [https://huggingface.co/facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53)
+1. **Baevski, A., Zhou, Y., Mohamed, A., & Auli, M. (2020).**  
+   *wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations.*  
+   arXiv: [2006.11477](https://arxiv.org/abs/2006.11477)
 
+2. **Tak, H., Patwa, P., & Yamagishi, J. (2021).**  
+   *End-to-End Detection of Spoofed Speech Using RawNet2.*  
+   In *ICASSP 2021 - IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*.  
+   DOI: [10.1109/ICASSP39728.2021.9413753](https://ieeexplore.ieee.org/document/9413753)
+
+3. **Radford, A., et al. (2022).**  
+   *Whisper: Robust Speech Recognition via Large-Scale Weak Supervision.*  
+   OpenAI. [https://openai.com/research/whisper](https://openai.com/research/whisper)
+
+4. **ASVspoof Challenge Dataset.**  
+   [https://www.asvspoof.org](https://www.asvspoof.org)
+
+5. **Fake-or-Real Speech Dataset.**  
+   - Harvard Dataverse: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3LJ5Y8](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3LJ5Y8)  
+   - Kaggle Mirror: [https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)
+
+6. **Hugging Face Wav2Vec2.0 Model:**  
+   [https://huggingface.co/facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53)
 ---
-
 ## Acknowledgments
 
 - Thanks to Hugging Face, Google Colab, OpenAI, and Harvard Dataverse for open access to incredible tools and datasets.
