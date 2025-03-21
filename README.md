@@ -115,8 +115,7 @@ python evaluate.py
    [https://www.asvspoof.org](https://www.asvspoof.org)
 
 5. **Fake-or-Real Speech Dataset.**  
-   - Harvard Dataverse: [https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3LJ5Y8](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/3LJ5Y8)  
-   - Kaggle Mirror: [https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)
+      - Kaggle Mirror: [https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset](https://www.kaggle.com/datasets/mohammedabdeldayem/the-fake-or-real-dataset)
 
 6. **Hugging Face Wav2Vec2.0 Model:**  
    [https://huggingface.co/facebook/wav2vec2-large-xlsr-53](https://huggingface.co/facebook/wav2vec2-large-xlsr-53)
