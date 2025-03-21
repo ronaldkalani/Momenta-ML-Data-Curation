@@ -140,9 +140,11 @@ Ideal for **real-time or batch processing** in:
 | **Actual Fake** | 50             | 50             |
 
 #### Key Observations:
-- Class overlap indicates **model confusion** in real-world signals.
-- Performance far lower than expected from academic benchmarks.
+- The model misclassified 48% of real speech as fake, indicating high false positives.
 
+- 50% of fake speech was incorrectly classified as real, highlighting false negatives.
+
+- The model struggles with distinguishing deepfake voices, suggesting deeper spectral features may be required.
 ---
 
 ## Analysis and Discussion
@@ -168,18 +170,31 @@ Ideal for **real-time or batch processing** in:
 
 ---
 
-## Challenges & Future Directions
+### Challenges & Future Directions
 
-### Implementation Challenges
-- **Colab limitations**: Constrained GPU memory, session timeouts
-- **Low model generalization**: High variance during validation
-- **Noisy training samples**: Affected feature embedding quality
+## Implementation Challenges Encountered
+During the development and training of the deepfake speech detection model, several challenges emerged:
+# Computational Limitations: 
+The training process relied on Google Colab GPUs, which posed constraints due to limited memory and frequent session timeouts.
+# Dataset Imbalance: 
+The Fake-or-Real dataset exhibited class imbalance. Data augmentation techniques were employed to address this issue.
+# Model Overfitting: 
+Overfitting was mitigated using dropout regularization and early stopping mechanisms during training.
+# Generalization Issues:
+The model demonstrated strong performance on the Fake-or-Real dataset, but exhibited high variance during validation, indicating limited generalization across other domains.
+# Noisy Training Samples:
+The presence of low-quality or noisy audio samples negatively affected the quality of learned feature embeddings.
 
 ### Future Enhancements
--  **Domain Adaptation** using adversarial training
--  **Ensemble Models**: Combine CNN, Transformer, and ASR-based techniques
--  **Custom loss functions** to better handle false positives
--  **Larger Dataset Collection**: Include new voices, accents, audio channels
+To improve the robustness and accuracy of the deepfake detection model, the following enhancements are proposed:
+## Domain Adaptation:
+Implement adversarial training techniques to improve performance across diverse speech domains.
+## Ensemble Modeling:
+Combine CNN, Transformer, and ASR-based models to capture different aspects of speech features.
+## Custom Loss Functions:
+Develop and apply loss functions tailored to reducing false positives, enhancing detection precision.
+## Larger and More Diverse Datasets:
+Expand the training dataset to include varied voices, accents, and audio conditions for better generalization.
 
 ---
 
